@@ -86,3 +86,6 @@
 
 #include "learning.h"
 #include "qlearning.h"
+
+/* for linux TODO find a better way */
+#include <linux/stddef.h>
