@@ -9,8 +9,6 @@
  * implies agreement with all terms and conditions of the accompanying
  * software licence.
  */
-#include <stdlib.h>
-#include <stdio.h>
 
 #include <gl/glut.h>
 

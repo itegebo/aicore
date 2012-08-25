@@ -10,9 +10,8 @@
  * software licence.
  */
 #include <stdio.h>
-#include <string.h>
-#include <aicore/aicore.h>
 
+#include <aicore/dectree.h>
 
 /**
  * This is a custom decision implementation that asks the user for the

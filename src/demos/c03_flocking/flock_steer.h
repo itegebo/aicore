@@ -12,9 +12,10 @@
 #ifndef DEMO_FLOCK_STEER_H
 #define DEMO_FLOCK_STEER_H
 
-#include <aicore/aicore.h>
 #include <list>
-
+#include <aicore/kinematic.h>
+#include <aicore/aimath.h>
+#include <aicore/steering.h>
 
 /**
  * This class stores a flock of creatures.

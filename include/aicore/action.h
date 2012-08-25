@@ -25,6 +25,8 @@
 #ifndef AICORE_ACTION_H
 #define AICORE_ACTION_H
 
+#include "primitives.h"
+
 namespace aicore
 {
     /**

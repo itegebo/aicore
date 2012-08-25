@@ -26,6 +26,7 @@
 
 #include <list>
 #include <vector>
+#include "steering.h"
 
 namespace aicore
 {

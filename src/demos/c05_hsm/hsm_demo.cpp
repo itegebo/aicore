@@ -10,10 +10,10 @@
  * software licence.
  */
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <aicore/aicore.h>
+#include <stdlib.h> // atoi
 
+#include <aicore/basesm.h>
+#include <aicore/sm.h>
 
 /** Holds the last selected option from the user. */
 unsigned option = 0;

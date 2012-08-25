@@ -19,6 +19,8 @@
 #ifndef AICORE_PRIMITIVES_H
 #define AICORE_PRIMITIVES_H
 
+#include "aimath.h"
+
 /**
  * Holds all classes and functions for AI-Core.
  *

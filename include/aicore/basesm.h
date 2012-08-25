@@ -21,6 +21,8 @@
 #ifndef AICORE_BASESM_H
 #define AICORE_BASESM_H
 
+#include "action.h"
+
 namespace aicore
 {
     /**

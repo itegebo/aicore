@@ -24,6 +24,7 @@
 #define AICORE_STEERING_H
 
 #include <vector>
+#include "primitives.h"
 
 namespace aicore
 {

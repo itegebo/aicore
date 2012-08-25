@@ -25,6 +25,8 @@
 #ifndef AICORE_KINEMATIC_H
 #define AICORE_KINEMATIC_H
 
+#include "location.h"
+
 namespace aicore
 {
     /**

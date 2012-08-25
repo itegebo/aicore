@@ -9,12 +9,14 @@
  * implies agreement with all terms and conditions of the accompanying
  * software licence.
  */
-#include <stdlib.h>
-#include <stdio.h>
 
 #include <gl/glut.h>
-#include <aicore/aicore.h>
 
+#include <aicore/kinematic.h>
+#include <aicore/primitives.h>
+#include <aicore/core.h>
+#include <aicore/steering.h>
+#include <aicore/timing.h>
 #include "../common/gl/app.h"
 
 // This is the size of the world in both directions from 0 (i.e. from

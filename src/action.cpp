@@ -9,8 +9,9 @@
  * implies agreement with all terms and conditions of the accompanying
  * software licence.
  */
-#include <stdio.h>
-#include <aicore/aicore.h>
+#include <stdlib.h> // probably just for NULL
+#include <aicore/action.h>
+#include <aicore/precision.h>
 
 namespace aicore
 {

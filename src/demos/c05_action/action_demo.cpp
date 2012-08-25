@@ -9,11 +9,10 @@
  * implies agreement with all terms and conditions of the accompanying
  * software licence.
  */
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <aicore/aicore.h>
 
+#include <stdio.h>
+
+#include <aicore/action.h>
 
 /** Holds the last selected option from the user. */
 int option = 0;
