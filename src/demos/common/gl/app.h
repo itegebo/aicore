@@ -9,7 +9,8 @@
  * implies agreement with all terms and conditions of the accompanying
  * software licence.
  */
-#include <aicore/aicore.h>
+
+#include <aicore/location.h>
 
 /**
  * An application is the base class for all demonstration progams.

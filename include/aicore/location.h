@@ -24,6 +24,8 @@
 #ifndef AICORE_LOCATION_H
 #define AICORE_LOCATION_H
 
+#include "aimath.h"
+
 namespace aicore
 {
     /**

@@ -13,9 +13,10 @@
 #include <stdio.h>
 
 #include <gl/glut.h>
-#include <aicore/aicore.h>
 
 #include "../common/gl/app.h"
+#include <aicore/kinematic.h>
+#include <aicore/timing.h>
 
 // This is the size of the world in both directions from 0 (i.e. from
 // -WORLD_SIZE to +WORLD_SIZE)

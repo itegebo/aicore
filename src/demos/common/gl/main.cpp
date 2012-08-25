@@ -11,6 +11,7 @@
  */
 
 #include <gl/glut.h>
+#include <aicore/timing.h>
 
 // Include the general application structure.
 #include "app.h"

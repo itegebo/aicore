@@ -26,6 +26,8 @@
 #ifndef AICORE_AIMATH_H
 #define AICORE_AIMATH_H
 
+#include "precision.h"
+
 namespace aicore
 {
     /**
