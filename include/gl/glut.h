@@ -21,7 +21,9 @@
 
 /* define APIENTRY and CALLBACK to null string if we aren't on Win32 */
 #if !defined(WIN32)
+#if !defined(APIENTRY)
 #define APIENTRY
+#endif
 #define CALLBACK
 #endif
 
