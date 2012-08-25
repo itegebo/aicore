@@ -54,6 +54,7 @@ namespace aicore
          * Creates a new steering action with zero linear and angular
          * changes.
          */
+      // TODO This doesn't seem to explicitly initialize 'linear'
         SteeringOutput() : angular(0)
         {}
 
