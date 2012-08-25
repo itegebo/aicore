@@ -24,7 +24,7 @@ public:
     /**
      * This will hold the question to ask.
      */
-    char *question;
+    const char *question;
 
     virtual bool getBranch();
 };
@@ -53,7 +53,7 @@ bool InteractiveDecision::getBranch()
 class DemoAction : public aicore::DecisionTreeAction
 {
 public:
-    char *actionText;
+    const char *actionText;
 };
 
 /**

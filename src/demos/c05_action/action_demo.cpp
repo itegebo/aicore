@@ -59,7 +59,7 @@ bool DemoAction::isComplete()
 void DemoAction::act()
 {
     actCount--;
-    printf("Doing: %s [id=%d]\n", actionText, this);
+    printf("Doing: %s [id=%p]\n", actionText, this);
 }
 
 /**
@@ -74,7 +74,7 @@ void displayActive(const aicore::ActionManager* am)
     {
         while (next != NULL)
         {
-            printf("Action: [id=%d] - priority %f\n",
+            printf("Action: [id=%p] - priority %f\n",
                    next,
                    next->priority
                    );
@@ -96,7 +96,7 @@ void displayQueue(const aicore::ActionManager* am)
     {
         while (next != NULL)
         {
-            printf("Action: [id=%d] - priority %f\n",
+            printf("Action: [id=%p] - priority %f\n",
                    next,
                    next->priority
                    );
@@ -173,7 +173,7 @@ bool processOption(const char* command, aicore::ActionManager * am)
         action = new DemoAction(1, 0, false);
         action->actionText = "One-Shot Action";
         am->scheduleAction(action);
-        printf("Scheduling a one-shot action. %d\n", action);
+        printf("Scheduling a one-shot action. Action[id=%p]\n", action);
         break;
 
     case '2':

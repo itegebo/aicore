@@ -18,13 +18,14 @@
  * This is a custom decision implementation that asks the user for the
  * result of the decision.
  */
+
 class InteractiveDecision : public aicore::Decision
 {
 public:
     /**
      * This will hold the question to ask.
      */
-    char *text;
+    const char *text;
 
     virtual bool getBranch();
 };
@@ -54,7 +55,7 @@ bool InteractiveDecision::getBranch()
 class ReportingRandomDecision : public aicore::RandomDecision
 {
 public:
-    char *text;
+    const char *text;
 
     virtual bool getBranch();
 };
@@ -86,7 +87,7 @@ class ReportingRandomDecisionWithTimeOut
     : public aicore::RandomDecisionWithTimeOut
 {
 public:
-    char *text;
+    const char *text;
 
     virtual bool getBranch();
 };
@@ -116,7 +117,7 @@ bool ReportingRandomDecisionWithTimeOut::getBranch()
 class DemoAction : public aicore::DecisionTreeAction
 {
 public:
-    char *text;
+    const char *text;
 };
 
 /**
