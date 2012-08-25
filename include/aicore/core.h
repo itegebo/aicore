@@ -20,6 +20,8 @@
 #ifndef AICORE_CORE_H
 #define AICORE_CORE_H
 
+#include "primitives.h"
+
 /**
  * Holds all classes and functions for AI-Core.
  *
